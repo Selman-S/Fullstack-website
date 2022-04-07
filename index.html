@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="test web site">
-    <meta name="keyword" content="test,site,study,html">
+    <meta name="keyword" content="test,site,çalışma,html">
     <title>test</title>
     <style>
         * {
             margin: 0px;
             padding: 0px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         }
        
@@ -108,6 +109,16 @@
             margin-inline-start: 0px;
             margin-inline-end: 0px;
             padding-inline-start: 20px;
+
+        }
+         ul {
+            
+            margin: 0;
+            font-size:13px;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 20px;
             
         }
         #anamenu a {
@@ -121,7 +132,7 @@
         }
         #anamenu a:hover {
             background-color:rgb(180, 180, 180);
-            border-radius:2180
+            border-radius:3px;
         }
         #anamenu li {
             float:left;
@@ -132,7 +143,7 @@
         #anamenu-log {
             
             
-            margin-left: 490px;
+            margin-left: 480px;
 
         }
         button {
@@ -152,21 +163,59 @@
 
         }
         section {
-            width: 900px;
-            min-height: 400px;
+            width: 598px;
+            height: auto;
+            border-radius: 5px;
            
-            background-color:rgb(23, 250, 34);
+            background-color:rgb(255, 255, 255);
             margin: auto;
             float:left;
         }
+        #içerik {
+
+        }
+        #içerik img {
+            width: 280px;
+            float: left;
+            margin:10px;
+        }
+        #içerik h2,h3 {
+            margin: 30px 10px 20px 30px;
+            
+        }
+        #içerik p {
+            font-size: 13px;
+            margin: 15px
+        }
         #yanmenu {
             width: 300px;
-            min-height: 400px;
-           
-            background-color:rgb(253, 36, 188);
-            margin: auto;
+            min-height:auto;
+            border-radius: 5px;
+            background-color:rgb(255, 255, 255);
+            margin:0 ;
             float:right;
+            
+            
 
+
+        }
+        #yanmenu ul {
+            margin: 50px 20px 20px 50px;
+            list-style-type: style type circle;;
+            
+            
+            font-size:18px;
+            
+            padding-inline-start: 20px;
+        }
+        #yanmenu a {
+            color:black;
+            text-decoration:none;
+            line-height: 1.5em;
+
+        }
+        #yanmenu a:hover {
+            font-size: 19px;
         }
         #altmenu {
             width: 900px;
@@ -175,6 +224,9 @@
             background-color:rgb(254, 5, 5);
             margin: auto;
             float:left;
+        }
+        #içerik ul {
+            margin: 10px
         }
         
       
@@ -219,15 +271,58 @@
             </ul>
             
         </nav>
-        <section id="">
+        <section>
+
             <article id="içerik">
-
+                <h2>What Is a Full Stack Developer?</h2>
+                <img src="/images/fullstack2.png" alt="">
+                <p>In the world of software programming, it helps to have someone on the team who is something of a jack of all trades. They can help with various stages of development and have the versatility and time management to assist all levels of the development team. When it comes to web development, that role belongs to the Full Stack Developer. This is not a Back End or Front End developer, but someone who handles both — a “Full Stack,” as it were.</p>
+                <h3>What Does a Full Stack Developer Do?</h3>
+                <p>A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. Full Stack Developers have to have some skills in a wide variety of coding niches, from databases to graphic design and UI/UX management in order to do their job well. They are something of a swing, ready to assist wherever needed in the process.</p>
+                <p>Some of the responsibilities of a Full Stack Developer include:</p>
+                <ul>
+                    <li>Helping with the design and development of software</li>
+                    <li>Testing and debugging software to keep it optimized</li>
+                    <li>Writing clean code for the front and back end of the software</li>
+                    <li>Designing user interactions on the web application itself</li>
+                    <li>Creating servers and databases for the back end of the software</li>
+                    <li>Ensuring cross-platform compatibility and optimization</li>
+                    <li>Testing and maintaining the responsive design of applications</li>
+                    <li>Working with graphic designers to design new features</li>
+                    <li>Developing APIs and RESTful services</li>
+                    <li>Keeping up with technological advances to optimize their software</li>
+                    <li>Communicating effectiveness of emerging technologies to decision makers</li>
+                    <li>Considering security, maintenance, scalability, and more when developing</li>
+                </ul>
+                <h3>When Is a Full Stack Developer Needed?</h3>
+                <img src="/images/fullstack1.png" alt="">
+                <p>It depends on the size and scalability of the software. For instance, a small independent game group made up of only a few people creating a small simulator could have one Back End Developer and one Front End Developer and that might be all they need for the development. If they’re even smaller, they might have one Full Stack Developer who handles the entire application. On the other hand, a large web application with strong potential for scaling will require many hands on deck — Back End, Front End, and Full Stack Developers.</p>
+                <h3>Front End vs. Back End vs. Full Stack Web Developers — What’s the Difference?
+                
+                </h3>
+                <p>If there were a diagram of the duties that Back End Web Developers handle and the duties that front end developers handle, the duties of a Full Stack Web Developer would be the part where the two diagrams combined. Indeed, in many cases, there is quite a bit of overlap between Front End and Back End Developers. It’s important to know the duties of Front End Developers and Back End Developers so you can know the duties that a Full Stack Developer may need to swing in and assist with.</p>
+                <img src="/images/front-end-left-img.png" alt="">
+                <p> <strong>Front End Developers:</strong>  - Deal with the interface and user-facing systems - Develop the navigation, interface, and visuals - Focus on user experience - Utilize HTML, CSS3, and JavaScript - Are the most aesthetically-forward web development position</p>
+                <p> <strong>Back End Developers:</strong>  - Deal with the server and database of the application - Create the back frame that allows the front end development to exist - Utilize Python, Ruby, and PHP - Store user information into database</p>
+                <p><strong>Full Stack Developers:</strong> - Cross-discipline web development skills involving front and back end - Deal with the overlap between the front end and back end - Utilize all the coding languages of the first two plus MySQL, machine learning, and more - Take responsibility for the entire experience to make sure it goes smoothly</p>
             </article>
-            <aside id="yanmenu">
-
-            </aside>
+            
         </section>
-        
+        <aside id="yanmenu">
+            <ul>
+                <li><a href="#">UI/UX</a></li>
+                <li><a href="#">Front End</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Backend</a></li>
+                <li><a href="#">AwsDevops</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">REACT</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Angular JS</a></li>
+                <li><a href="#">JQuery</a></li>
+            </ul>
+
+        </aside>
         <footer id="altmenu">
 
         </footer>
