@@ -1,35 +1,39 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    
 }
 
-#sayfa {
-    width: 900px;
-    min-height: 650px;
+.container {
+  
     
     
     margin:5px auto;
 
 }
 #banner {
-    width: 898px;
-    min-height: 98px;
+    min-width:750px;
+    max-width: 1200px;
+    min-height: 150px;
     margin:2px auto;
+    display:flex;
    
-    border-radius:5px;
-    border:1px solid #666
+    
+    border-bottom:1px solid #666
     
 }
 #logo {
     
-    width: 100px;
-    height: 80px;
-    position: relative;
-    top: 5px;
-    left: 10px;
-    float: left;
+    width: 150px;
+   height:10px;
+   
+   
     
 
 }
@@ -45,7 +49,7 @@
     position: relative;
     top: 20px;
     right: 10px;
-    float: right;
+    
     text-align: center;
     
 }
@@ -57,14 +61,15 @@
  
     float:left;
     position:relative ;
-    width: 580px;
-    height: 98px;
-    top: px;
+
+    width: 840px;
+    height: 140px;
+    top: 10px;
     left: 10px;
 }
 #logoarka img {
     width: 100%;
-    height: 98px;
+    height: 130px;
     opacity:0.7 ;
 }
 #head-yazi {
@@ -84,12 +89,13 @@
     color:rgb(0, 0, 1);
 }
 #anamenu {
-    width: 898px;
+    max-width: 1200px;
     height:30px;
-    
+   display:flex;
     margin: 2px auto;
-    border-radius:5px;
-    border:1px solid #666
+    justify-content: space-between;
+    
+    border-bottom:1px solid #666
 }
 #anamenu ul {
     list-style-type: none;
@@ -104,11 +110,12 @@
  ul {
     
     margin: 0;
-    font-size:13px;
+    font-size:18px;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 20px;
+    line-height:1.5;
     
 }
 #anamenu a {
@@ -125,15 +132,16 @@
     border-radius:3px;
 }
 #anamenu li {
-    float:left;
-    display: list-item;
+    
+    display: inline-block;
     
 
 }
-#anamenu-log {
+.anamenu-log {
     
-    
-    margin-left: 480px;
+    align-items: center;
+   
+   
 
 }
 button {
@@ -152,8 +160,12 @@ ul {
     margin-block-start: 1em;
 
 }
+main {
+    width: 1000px;
+    margin:auto;
+}
 section {
-    width: 598px;
+    width: 650px;
     height: auto;
     border-radius: 5px;
    
@@ -164,7 +176,7 @@ section {
 
 
 #content img {
-    width: 280px;
+    width: 350px;
     float: left;
     margin:10px;
 }
@@ -173,16 +185,18 @@ section {
     
 }
 #content p {
-    font-size: 13px;
-    margin: 15px
+    font-size: 16px;
+    margin: 15px;
+    line-height:1.5;
 }
 #yanmenu {
-    width: 300px;
+    width: 250px;
     min-height:auto;
-    border-radius: 5px;
+    
     background-color:rgb(255, 255, 255);
     margin:0 ;
     float:right;
+    
     
     
 
@@ -193,22 +207,23 @@ section {
     list-style-type: style type circle;;
     
     
-    font-size:18px;
+    font-size:24px;
     
     padding-inline-start: 20px;
 }
 #yanmenu a {
     color:black;
     text-decoration:none;
-    line-height: 1.5em;
+    line-height: 1.8em;
 
 }
 #yanmenu a:hover {
     opacity: 0.7;
 }
 #altmenu {
-    width: 900px;
+    width: 1200px;
     min-height: 50px;
+    
     
     
     margin: auto;
@@ -217,13 +232,16 @@ section {
 #content ul {
     margin: 10px
 }
+
 .fa {
     padding: 5px;
     font-size: 15px;
-    width: 15px;
+    width: 25x;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+   
+    
     
   }
   
